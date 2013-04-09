@@ -1,0 +1,42 @@
+<head>
+    {% block head_1 %}
+    {#
+        Documentation for head_1_1
+        Should have <title> tag
+    #}
+
+        {% block head_1_1 %}
+            {# Documentation for head_1_1: Try: <style> tag #}
+            head_1_1 default value
+        {% endblock %}
+    {% endblock %}
+</head>
+
+<body>
+    {% block before_content %}
+        {# Documentation for before_content
+           It should become before content
+        #}
+    {% endblock %}
+
+    {% block content %}
+        {# This is the page content =) #}
+
+        {% block special_place_for_content %}
+            {# This is is a special place for content #}
+
+            {% block sub_special_content %}
+                {# SUB SUB SUB !!!! #}
+            {% endblock %}
+
+            <div>teste</div>
+        {% endblock %}
+    {% endblock %}
+
+    {% block after_content %}
+        {# Documentation for after_content
+           It should become after content
+        #}
+    {% endblock %}
+
+</body>
