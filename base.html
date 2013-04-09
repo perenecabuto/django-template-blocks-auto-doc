@@ -1,18 +1,25 @@
 <head>
     {% block head_1 %}
     {#
-        Documentation for head_1_1
+        Documentation for head_1
         Should have <title> tag
     #}
+
+        Default head 1
 
         {% block head_1_1 %}
             {# Documentation for head_1_1: Try: <style> tag #}
             head_1_1 default value
         {% endblock %}
+
+        Default head 2
     {% endblock %}
 </head>
 
 <body>
+    {% block simple_block %}
+    {% endblock %}
+
     {% block before_content %}
         {# Documentation for before_content
            It should become before content
