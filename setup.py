@@ -12,7 +12,7 @@ setup(
     maintainer='Felipe Ramos Ferreira',
     maintainer_email='perenecabuto@gmail.com',
     url='https://github.com/perenecabuto/django-template-blocks-auto-doc',
-    scripts=['bin/build_doc.py'],
+    scripts=['bin/django_tmpl_doc.py'],
     include_package_data=True,
     install_requires=['lxml==3.1.1', 'Pygments==1.6'],
     zip_safe=False,
