@@ -11,11 +11,8 @@ setup(
     author_email='perenecabuto@gmail.com',
     maintainer='Felipe Ramos Ferreira',
     maintainer_email='perenecabuto@gmail.com',
-    url='https://pypi.python.org/pypi/json_schema_generator/',
-
-    scripts=['bin/jsonschema_generator.py'],
-    include_dirs=('json_schema_generator/',),
-    packages=['json_schema_generator'],
+    url='https://github.com/perenecabuto/django-template-blocks-auto-doc',
+    scripts=['bin/build_doc.py'],
     include_package_data=True,
     install_requires=['lxml==3.1.1', 'Pygments==1.6'],
     zip_safe=False,
