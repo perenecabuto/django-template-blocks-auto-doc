@@ -14,7 +14,7 @@ setup(
     url='https://github.com/perenecabuto/django-template-blocks-auto-doc',
     scripts=['bin/django_tmpl_doc.py'],
     include_package_data=True,
-    install_requires=['lxml==3.1.1', 'Pygments==1.6'],
+    install_requires=['lxml==4.6.5', 'Pygments==1.6'],
     zip_safe=False,
 
     keywords='django, template, documentation',
